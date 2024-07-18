@@ -1,0 +1,7 @@
+Flask==2.1.1
+python-dotenv==0.19.2
+openai==0.27.0
+langchain==0.0.157
+langchain_community==0.0.3
+shutilwhich==1.1.0
+typing-extensions==4.0.1
