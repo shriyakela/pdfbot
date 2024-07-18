@@ -1,0 +1,18 @@
+# Ignore .env file containing sensitive information
+.env
+secret.py
+genai.pynb
+get_embedding_function
+ollama.pynb
+
+# Dependency management
+venv/
+env/
+*.egg-info/
+
+# Ignore specific directories (relative to repository root)
+genai/chroma/
+genai/__pycache__/
+genai/pdf/
+
+
