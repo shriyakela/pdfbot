@@ -22,10 +22,13 @@ This is a Flask-based document processor that allows users to upload PDFs, enter
 git clone <repository_url>
 cd genai
 
+### Install dependancies 
+
 
 pip install -r requirements.txt
 ### .env file
-API_SECRET_KEY=your_api_secret_key_here
+create a .env file
+openai.api_key=your_api_secret_key_here
 # Add other environment variables as needed
 ### Running the Application
 Run the app.py file to start the Flask application.
